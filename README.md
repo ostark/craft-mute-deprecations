@@ -5,18 +5,13 @@ When migrating a site from Craft 2 to Craft 3, you will notice things [changed i
 This extension prevents Craft from logging deprecation errors if `'devMode' => false` in `config/general.php`. 
 It speeds up your site by reducing overhead of tracing the code and logging to the database.
 
-*Notice: Do not simply mute deprecation errors, remove them as soon as possible.*
+**Notice: Do not simply mute deprecation errors, remove them as soon as possible.**
 
-## Install
-
-Require the package:
-```
-composer require ostark/craft-mute-deprecations
-```
 
 ## Why?
 
-The benefits of this package are very limited. 
+The benefits of this package are very limited.
+
 It is rather an example how to use Yii extensions with Craft, instead of a Plugin.
 
 With this `extra` option in the `composer.json` you hook into Yii's bootstrapping process:
@@ -33,3 +28,10 @@ In the [Bootstrap class](https://github.com/ostark/craft-mute-deprecations/blob/
 
 https://www.yiiframework.com/doc/guide/2.0/en/structure-extensions
 https://docs.craftcms.com/v3/plugin-intro.html
+
+## Install
+
+Require the package:
+```
+composer require ostark/craft-mute-deprecations
+```
