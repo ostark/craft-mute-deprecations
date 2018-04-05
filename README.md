@@ -10,9 +10,7 @@ It speeds up your site by reducing overhead of tracing the code and logging to t
 
 ## Why?
 
-The benefits of this package are very limited.
-
-It is rather an example how to use Yii extensions with Craft, instead of a Plugin.
+The benefits of this package are very limited. It is rather an example of how to use a Yii extension with Craft instead of a Plugin.
 
 With this `extra` option in the `composer.json` you hook into Yii's bootstrapping process:
  
@@ -21,13 +19,14 @@ With this `extra` option in the `composer.json` you hook into Yii's bootstrappin
     "bootstrap": "ostark\\MuteDeprecations\\Bootstrap"
 }
 ```
-In the [Bootstrap class](https://github.com/ostark/craft-mute-deprecations/blob/master/src/Bootstrap.php), you learn how access the `Craft::$app` instance, use services and to swap out a Craft core component from the container.
+
+In the [Bootstrap class](https://github.com/ostark/craft-mute-deprecations/blob/master/src/Bootstrap.php), you learn how to access the `Craft::$app` instance, to use services and to swap out a Craft core component from the container.
 
 
-### Links
+## Links
 
-https://www.yiiframework.com/doc/guide/2.0/en/structure-extensions
-https://docs.craftcms.com/v3/plugin-intro.html
+* https://www.yiiframework.com/doc/guide/2.0/en/structure-extensions
+* https://docs.craftcms.com/v3/plugin-intro.html
 
 ## Install
 
