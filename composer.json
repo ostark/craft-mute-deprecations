@@ -1,0 +1,32 @@
+{
+  "name": "ostark/craft-mute-deprecations",
+  "description": "Mutes deprecation logs in production",
+  "version": "0.1.0",
+  "type": "yii2-extension",
+
+  "keywords": ["yii2", "craftcms", "logging"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oliver Stark",
+      "homepage": "https://www.fortrabbit.com"
+    }
+  ],
+  "support": {
+    "email": "os@fortrabbit.com",
+    "issues": "https://github.com/ostark/craft-mute-deprecations/issues",
+    "source": "https://github.com/ostark/ostark/craft-mute-deprecations",
+    "docs": "https://github.com/ostark/ostark/craft-mute-deprecations"
+  },
+  "require": {
+    "craftcms/cms": "^3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ostark\\MuteDeprecations\\": "src/"
+    }
+  },
+  "extra": {
+    "bootstrap": "ostark\\MuteDeprecations\\Bootstrap"
+  }
+}
